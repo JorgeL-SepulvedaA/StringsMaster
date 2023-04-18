@@ -10,13 +10,13 @@ Content: StringsMaster es una app que permite a nuestros estudiantes tener acces
 # Requirements: 
 • Login Students: Acceso al módulo de busqueda de acordes por su nombre dependiendo su nivel [Beginner I, Beginner II, Beginner III, Master].
 
-- Beginner I: Busqueda de acordes por el nombre, con acceso a strings.
+    - Beginner I: Busqueda de acordes por el nombre, con acceso a strings.
 
-- Beginner II: Busqueda de acordes por el nombre, con acceso a strings and fingering.
+    - Beginner II: Busqueda de acordes por el nombre, con acceso a strings and fingering.
 
-- Beginner III: Busqueda de acordes por el nombre, con acceso a strings and fingering y tone.
+    - Beginner III: Busqueda de acordes por el nombre, con acceso a strings and fingering y tone.
 
-- Master: Libre acceso a busquedas por sonidos, posición de dedo. Además, permite salvar progresiones ritmicas propias.
+    - Master: Libre acceso a busquedas por sonidos, posición de dedo. Además, permite salvar progresiones ritmicas propias.
 
 • Login Teacher: Acceso al módulo de busqueda de acordes como usuario master. Además, tiene la opción de crear nuevos usuarios y asignación de roles para estudiantes.
 
