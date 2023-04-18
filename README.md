@@ -1,11 +1,9 @@
 # StringsMaster
  StringsMaster is an app that grant students the access of an all-in-one repository where they can find the chords, strings that compose it, the fingering and so on.
 
-Tittle: StringsMaster - Chords App
-\n
-Service: Guitar Chords
-\n
-Owner: Royalty Guitar Institute.
+    Tittle: StringsMaster - Chords App
+    Service: Guitar Chords
+    Owner: Royalty Guitar Institute.
 
 Content: StringsMaster es una app que permite a nuestros estudiantes tener acceso a una amplia biblioteca de acordes donde se muestre, no solo el nombre, sino que, tambien incluye su posiciones de dedos, cuerdas a tocar y más.
 
