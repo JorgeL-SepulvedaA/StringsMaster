@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PlayGround;
+using StringMaster.Models;
 using StringsMaster.Models;
 using System.Diagnostics;
 
@@ -13,8 +15,10 @@ namespace StringsMaster.Areas.General.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            //ChordAPI api = new ChordAPI();
+            //chord acorde = await api.GetChord("F");
             return View();
         }
 
