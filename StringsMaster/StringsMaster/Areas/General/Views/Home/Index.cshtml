@@ -1,20 +1,34 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@model Query;
 <div class="container">
             <div class="row height d-flex justify-content-center align-items-center">
               <div class="col-md-6">
               <h1 class="text-center">Music</h1>
-                <form asp-action="find-chord" class="form">
+                <form asp-action="find-chord" class="form" id="miFormulario">
                   <i class="fa fa-search"></i>
-                  <input type="text" class="form-control form-input" placeholder="Ingres the chord name">
+                  <input type="text" asp-for="chord" class="form-control form-input" placeholder="Ingres the chord name">
                   <span class="left-pan"><i class="fa fa-music"></i></span>
                 </form>
               </div>
               
             </div>
+            <script>
+              // Obtener el elemento del formulario
+              var formulario = document.getElementById("miFormulario");
 
+              // Agregar un evento de escucha de teclado al formulario
+              formulario.addEventListener("keyup", function(event) {
+                // Verificar si la tecla presionada fue Enter (código 13)
+                if (event.keyCode === 13) {
+                  // Prevenir el comportamiento predeterminado del formulario (que es recargar la página)
+                  event.preventDefault();
+                  // Enviar el formulario
+                  formulario.submit();
+                }
+              });
+            </script>
             <style>
                 body{
                     background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
