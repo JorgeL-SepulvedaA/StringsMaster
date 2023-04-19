@@ -2,7 +2,7 @@
 using StringsMaster.Models;
 using System.Diagnostics;
 
-namespace StringsMaster.Controllers
+namespace StringsMaster.Areas.General.Controllers
 {
     public class HomeController : Controller
     {
